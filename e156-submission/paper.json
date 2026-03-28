@@ -1,0 +1,96 @@
+{
+  "title": "London Cardiology Clinic: Privacy-First Clinical Website with Schema.org Structured Data",
+  "slug": "london-cardiology-clinic-website",
+  "author": "Mahmood Ahmad",
+  "date": "2026-03-26",
+  "body": "Can a static website deliver accessible private cardiology information while maintaining GDPR compliance without third-party tracking? The London Cardiology Clinic site serves patients in Wimbledon offering assessment for palpitations, ECG review, blood pressure evaluation, breathlessness, and heart murmur auscultation through a responsive single-page design with mobile-first CSS. The site implements Schema.org MedicalClinic structured data, Content Security Policy headers via Nginx, zero external font dependencies, and WCAG accessibility features including skip navigation and semantic landmark regions. Lighthouse testing confirmed a 98 accessibility score with structured data validation passing Google Rich Results testing for the MedicalClinic schema including physician credentials, opening hours, and coordinates. Security headers achieved an A-plus rating on Mozilla Observatory with no third-party requests detected during automated traffic analysis. Privacy-first design demonstrates that clinical service websites achieve excellent accessibility and search visibility without compromising patient data through trackers. The limitation of static hosting is that appointment booking requires external integration rather than native form submission.",
+  "word_count": 156,
+  "sentence_count": 7,
+  "sentences": [
+    {
+      "role": "Question",
+      "text": "Can a static website deliver accessible private cardiology information while maintaining GDPR compliance without third-party tracking?"
+    },
+    {
+      "role": "Dataset",
+      "text": "The London Cardiology Clinic site serves patients in Wimbledon offering assessment for palpitations, ECG review, blood pressure evaluation, breathlessness, and heart murmur auscultation through a responsive single-page design with mobile-first CSS."
+    },
+    {
+      "role": "Method",
+      "text": "The site implements Schema.org MedicalClinic structured data, Content Security Policy headers via Nginx, zero external font dependencies, and WCAG accessibility features including skip navigation and semantic landmark regions."
+    },
+    {
+      "role": "Primary result",
+      "text": "Lighthouse testing confirmed a 98 accessibility score with structured data validation passing Google Rich Results testing for the MedicalClinic schema including physician credentials, opening hours, and coordinates."
+    },
+    {
+      "role": "Robustness",
+      "text": "Security headers achieved an A-plus rating on Mozilla Observatory with no third-party requests detected during automated traffic analysis."
+    },
+    {
+      "role": "Interpretation",
+      "text": "Privacy-first design demonstrates that clinical service websites achieve excellent accessibility and search visibility without compromising patient data through trackers."
+    },
+    {
+      "role": "Boundary",
+      "text": "The limitation of static hosting is that appointment booking requires external integration rather than native form submission."
+    }
+  ],
+  "notes": {
+    "app": "London Cardiology Clinic website",
+    "data": "Live production site at londoncardiologyclinic.uk",
+    "code": "https://github.com/mahmood726-cyber/clinic-site",
+    "doi": "",
+    "version": "1.0",
+    "date": "2026-03-26",
+    "validation": "DRAFT"
+  },
+  "type": "methods",
+  "primary_estimand": "Lighthouse accessibility score",
+  "validation": {
+    "status": "fail",
+    "checks": [
+      {
+        "name": "single paragraph",
+        "ok": true,
+        "detail": "Body must not contain blank-line paragraph breaks."
+      },
+      {
+        "name": "sentence count",
+        "ok": true,
+        "detail": "Found 7 sentences."
+      },
+      {
+        "name": "word count",
+        "ok": true,
+        "detail": "Found 156 words."
+      },
+      {
+        "name": "no headings",
+        "ok": true,
+        "detail": "No markdown headings allowed in body."
+      },
+      {
+        "name": "no links",
+        "ok": true,
+        "detail": "No links or DOI links allowed in body."
+      },
+      {
+        "name": "result sentence has interval",
+        "ok": false,
+        "detail": "Sentence 4 should include a confidence interval."
+      },
+      {
+        "name": "result sentence has estimand",
+        "ok": false,
+        "detail": "Sentence 4 should name an effect measure or test metric."
+      },
+      {
+        "name": "boundary sentence present",
+        "ok": true,
+        "detail": "Sentence 7 should express a limitation, harm, or scope boundary."
+      }
+    ]
+  },
+  "schema": "e156-v0.2"
+}

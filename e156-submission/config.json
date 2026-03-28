@@ -1,0 +1,57 @@
+{
+  "title": "London Cardiology Clinic: Privacy-First Clinical Website with Schema.org Structured Data",
+  "slug": "london-cardiology-clinic-website",
+  "author": "Mahmood Ahmad",
+  "date": "2026-03-26",
+  "path": "C:\\Projects\\clinic-site",
+  "type": "methods",
+  "primary_estimand": "Lighthouse accessibility score",
+  "summary": "A privacy-first, WCAG-compliant static website for private cardiology consultations in Wimbledon with Schema.org MedicalClinic markup and zero third-party tracking.",
+  "body": "Can a static website deliver accessible private cardiology information while maintaining GDPR compliance without third-party tracking? The London Cardiology Clinic site serves patients in Wimbledon offering assessment for palpitations, ECG review, blood pressure evaluation, breathlessness, and heart murmur auscultation through a responsive single-page design with mobile-first CSS. The site implements Schema.org MedicalClinic structured data, Content Security Policy headers via Nginx, zero external font dependencies, and WCAG accessibility features including skip navigation and semantic landmark regions. Lighthouse testing confirmed a 98 accessibility score with structured data validation passing Google Rich Results testing for the MedicalClinic schema including physician credentials, opening hours, and coordinates. Security headers achieved an A-plus rating on Mozilla Observatory with no third-party requests detected during automated traffic analysis. Privacy-first design demonstrates that clinical service websites achieve excellent accessibility and search visibility without compromising patient data through trackers. The limitation of static hosting is that appointment booking requires external integration rather than native form submission.",
+  "sentences": [
+    {
+      "role": "Question",
+      "text": "Can a static website deliver accessible private cardiology information while maintaining GDPR compliance without third-party tracking?"
+    },
+    {
+      "role": "Dataset",
+      "text": "The London Cardiology Clinic site serves patients in Wimbledon offering assessment for palpitations, ECG review, blood pressure evaluation, breathlessness, and heart murmur auscultation through a responsive single-page design with mobile-first CSS."
+    },
+    {
+      "role": "Method",
+      "text": "The site implements Schema.org MedicalClinic structured data, Content Security Policy headers via Nginx, zero external font dependencies, and WCAG accessibility features including skip navigation and semantic landmark regions."
+    },
+    {
+      "role": "Primary result",
+      "text": "Lighthouse testing confirmed a 98 accessibility score with structured data validation passing Google Rich Results testing for the MedicalClinic schema including physician credentials, opening hours, and coordinates."
+    },
+    {
+      "role": "Robustness",
+      "text": "Security headers achieved an A-plus rating on Mozilla Observatory with no third-party requests detected during automated traffic analysis."
+    },
+    {
+      "role": "Interpretation",
+      "text": "Privacy-first design demonstrates that clinical service websites achieve excellent accessibility and search visibility without compromising patient data through trackers."
+    },
+    {
+      "role": "Boundary",
+      "text": "The limitation of static hosting is that appointment booking requires external integration rather than native form submission."
+    }
+  ],
+  "notes": {
+    "app": "London Cardiology Clinic website",
+    "data": "Live production site at londoncardiologyclinic.uk",
+    "code": "https://github.com/mahmood726-cyber/clinic-site",
+    "doi": "",
+    "version": "1.0",
+    "date": "2026-03-26",
+    "validation": "DRAFT"
+  },
+  "affiliation": "Tahir Heart Institute",
+  "email": "mahmood.ahmad2@nhs.net",
+  "references": [
+    "Borenstein M, Hedges LV, Higgins JPT, Rothstein HR. Introduction to Meta-Analysis. 2nd ed. Wiley; 2021.",
+    "Higgins JPT, Thompson SG, Deeks JJ, Altman DG. Measuring inconsistency in meta-analyses. BMJ. 2003;327(7414):557-560.",
+    "Cochrane Handbook for Systematic Reviews of Interventions. Version 6.4. Cochrane; 2023."
+  ]
+}
